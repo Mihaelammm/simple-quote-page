@@ -1,1 +1,34 @@
-https://codeberryschool.github.io/simple-quote-page/assets/freedom.jpg
+.cover{
+	background-image: url(https://codeberryschool.github.io/simple-quote-page/assets/freedom.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	margin:0;
+	text-align: center;
+	display:table;
+	padding: 0;
+	color: #333;	
+}
+
+.wrapper{
+	display: table-cell;
+	margin-left: rem;
+	padding-top: 4em;	
+}
+
+.wrapper h1{
+	text-transform: uppercase;
+	text-decoration-style: 100;
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: 500;
+	font-size: 2.3rem;
+}
+
+.wrapper p{
+	padding-top:2.7rem;
+	font-family: 'Crimson Text', serif;
+	font-style: italic;
+	font-size: 1.3rem;
+}
